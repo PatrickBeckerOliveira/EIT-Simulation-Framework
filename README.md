@@ -1,3 +1,9 @@
+# Added files
+
+- The python files added are meant to replicate the functionalities of the MATLAB files
+- Major changes will be necessary to convert the acquisition and stimulation files into python since Pyeit library will be used instead of EIDORS, this was not yet implemented.
+- The comments below refer to the MATLAB files.
+
 # EIT Simulation Framework
 
 Integration between EIDORS and PSPICE for EIT simulation.
