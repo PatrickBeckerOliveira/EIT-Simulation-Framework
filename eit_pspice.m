@@ -35,7 +35,7 @@ function spice = eit_pspice(img, name)
    if nargout == 0
       filename = [ name '.lib' ];
       FILE = fopen(filename, 'w');
-      fprintf(FILE,'%s\n',spice{:});
+      fprintf(FILE,'%s\r\n',spice{:});
       fclose(FILE);
       eidors_msg(['saved SPICE netlist to ' filename]);
       return
